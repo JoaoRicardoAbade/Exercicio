@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Principal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <!--Menu-->
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Produto">Produto</a></li>
+                <li><a href="#Sobre">Sobre Nós</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <!--Titulo-->
+        <h1 id="Home">Mercado</h1>
+        <h5>Aqui vc encontra e compra produtos</h5>
+        <hr>
+        <!--Slides-->
+        <div class="slider">
+            <div class="slides">
+                <!--Slide 1-->
+                <div class="slide">
+                    <img src="Imagens/banner frete gratis.png" alt="Banner 1">
+                </div>
+                <!--Slide 2-->
+                <div class="slide">
+                    <img src="Imagens/Banner descontos.png" alt="Banner 2">
+                </div>
+                <!--Slide 3-->
+                <div class="slide">
+                    <img src="Imagens/Banner frio.png" alt="Banner 3">
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <!--Produto-->
+        <section class="Produto" id="Produto">
+            <img src="data:image/jpeg;base64,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" alt="img1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cum officia laboriosam et, natus eos numquam recusandae excepturi. Ipsam aspernatur, sunt repellendus nihil modi eligendi excepturi sapiente delectus beatae nam.</p>    
+        </section>
+        <hr>
+        <!--Flex Box-->
+        <center>
+        <div class="container">
+            <div class="card">
+                <h2>HortiFruti</h2>
+                <img src="Imagens/hortifruti.png" alt="">
+                <p>Nosso Horti-Fruti com frutas e verduras lindas</p>
+            </div>
+            <div class="card">
+                <h2>Açougue</h2>
+                <img src="Imagens/acougue.png" alt="">
+                <p>Nosso açougue com uma variedade de cortes</p>
+            </div>
+            <div class="card">
+                <h2>Lanchonete</h2>
+                <img src="Imagens/lanchonete.png" alt="">
+                <p>Nossa lanchonete com um cardapio delicioso</p>
+            </div>
+        </div>
+        </center>
+        <hr>
+        <!--Sobre Nós-->
+        <section class="Sobre" id="Sobre">
+            <h3>Quem somos nós</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ratione voluptates perferendis quis esse! Eius modi, esse veniam, eum eos accusantium nesciunt repellat quo est molestias nemo, neque quaerat id!</p>
+        </section>
+        <footer id="Contato">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>Sobre Nós</h4>
+                    <p>Somos profissionais (confia)</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rapidos</h4>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Produto">Produto</a></li>
+                        <li><a href="#Sobre">Sobre Nós</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>Email: empresa.legal@yes.com</p>
+                    <p>Fone: (21) 2323-0023</p>
+                    <p>Endereço: Rua Muito Loka,392,Sumaré,SP</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Siga-nos</h4>
+                    <div class="social-links">
+                        <a href="https://twitter.com/?lang=pt-br" target="_blank">Twitter</a>
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;2024 Empresa Legal.Tudo Reservado</p>
+            </div>
+        </footer>
+    </center>
+</body>
+</html>
